@@ -7,7 +7,7 @@ body
 
 .card
 {
-    background: rgb(15, 4, 107);
+    background: linear-gradient(rgb(12, 12, 99),white);
     text-align: center;
     width: 400px;
     margin: auto;
@@ -19,12 +19,12 @@ body
 
 .red-card
 {
-    background-color: rgb(151, 7, 7);
+    background: linear-gradient(rgb(180, 5, 5),white)
 }
 
 .green-card
 {
-    background-color: rgb(4, 83, 4);
+    background: linear-gradient(rgb(10, 104, 10),white)
 }
 
 .card_tittle 
@@ -55,5 +55,9 @@ body
     width: 160px;
     border-radius: 100%;
     margin-top: 13px;
+}
 
+.card_udg{
+    width: 280px;
+    filter: drop-shadow(0px 0px 6px rgb(255, 255, 255));
 }
